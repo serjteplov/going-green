@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a3cf90-07a7-41ac-b578-f076dbf882f2" name="Changes" comment="Add idea files">
-      <change afterPath="$PROJECT_DIR$/Decompose/Decompose.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decompose/GoGreen-Декомпозиция№2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decompose/GoGreen-Модель предметной области.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decompose/GoGreen-Предметная обл.№2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decompose/GoGreen-Функц.декомпозиция№1.jpg" afterDir="false" />
+    <list default="true" id="e5a3cf90-07a7-41ac-b578-f076dbf882f2" name="Changes" comment="Add DZ2 files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +89,7 @@
       <workItem from="1737606276866" duration="14000" />
       <workItem from="1737606293063" duration="3460000" />
       <workItem from="1737693962811" duration="2184000" />
-      <workItem from="1738036028965" duration="4313000" />
+      <workItem from="1738036028965" duration="5014000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -128,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735273761921</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add DZ2 files">
+      <option name="closed" value="true" />
+      <created>1738043030432</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738043030432</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +142,7 @@
     <MESSAGE value="Second commit" />
     <MESSAGE value="Context scheme added" />
     <MESSAGE value="Add idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add idea files" />
+    <MESSAGE value="Add DZ2 files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DZ2 files" />
   </component>
 </project>
