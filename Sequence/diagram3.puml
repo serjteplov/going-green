@@ -1,0 +1,35 @@
+@startuml
+autonumber
+
+
+actor user
+participant "Оркестратор процессов" as op
+participant "Сервис поиска нового владельца" as spnv
+participant "Сервис платежей" as sp
+participant "Авито" as a
+participant "Оркестратор доставки" as od
+participant "Концерн Xiaomi" as kx
+
+
+== Процесс поиска нового владельца ==
+
+op -> spnv: Запуск задачи поиска нового владельца
+spnv --> op: HTTP 200 OK
+spnv -> a: Создание объявления
+a --> spnv: HTTP 200 OK
+spnv -> kx: Создание заявки на переработку устройства
+kx --> spnv: HTTP 200 OK
+a -> spnv: Создан заказ по объявлению
+kx -> spnv: Заявка на переработку одобрена
+spnv -> spnv: Анализ предложений от Авито и Xiaomi
+alt Авито предложило выгодную цену
+    spnv -> kx: Отмена заявки
+else Xiaomi предложило выгодную цену
+    spnv -> a: Закрыть объявление
+end
+spnv -> spnv: Сохранение данных о пользователе\nи заказе
+spnv -> od: Запуск процесса доставки устройства
+od --> spnv: HTTP 200 OK
+
+
+@enduml
